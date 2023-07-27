@@ -8,12 +8,25 @@
   *Letters l and L should be replaced by 1
   *@z: the pointer to the string
   *
-  *Return: pointer 
+  *Return: pointer
   */
 char *leet(char *z)
 {
 	int l, c;
 
-	char a[]
+	char a[] = "aAeEoOtTlL";
+	char b[] = "4433007711";
+
+	for (l = 0; z[l] != '\0'; l++)
+	{
+		for (c = 0; c < 10; c++)
+		{
+			if (z[l] ==  a[c])
+			{
+				z[l] = b[c];
+			}
+		}
+	}
+	return (z);
 }
 

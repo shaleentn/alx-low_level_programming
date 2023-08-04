@@ -20,7 +20,10 @@ int main(int argc, char *argv[])
 	total = 0;
 	c = atoi(argv[1]);
 	if (c < 0)
+	{
+		printf("0\n");
 		return (0);
+	}
 	for (i = 0; i < 5 && c >= 0; i++)
 	{
 		while (c >= coins[i])

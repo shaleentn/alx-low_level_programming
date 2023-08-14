@@ -6,7 +6,8 @@
   *@age: age of the dog
   *@owner: pointer to owner to initilize
   */
-struct dog{
+struct dog
+{
 	char *name;
 	char *owner;
 	float age;

@@ -5,6 +5,7 @@
   *main - works on the main code
   *@argc: the number of arguments
   *@argv: pointer to the array of strings
+  *Return: Always 0
   */
 int main(int __attribute__((unused))argc, char *argv[])
 {
@@ -34,4 +35,3 @@ int main(int __attribute__((unused))argc, char *argv[])
 	printf("%d\n", get_op_func(p)(n, m));
 	return (0);
 }
-  
